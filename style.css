@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+/* header section */
+.display a {
+  text-align: center;
+}
+.menu-container {
+  display: flex;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  align-items: center;
+}
+
+.company-logo-name {
+  font-size: 40px;
+  font-style: italic;
+  text-align: left;
+  margin-left: 20px;
+  letter-spacing: 5px;
+  font-weight: 800;
+}
+.menu-items {
+  display: flex;
+  text-align: right;
+  margin-left: 500px;
+}
+.menu-items li {
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+  font-size: 18px;
+}
+.menu-items li:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+/* top banner section */
+.banner-container {
+  display: flex;
+  background-color: black;
+}
+.banner-left {
+  margin-top: 100px;
+}
+.banner-heading {
+  color: red;
+  margin: 20px;
+}
+.reason {
+  font-size: 50px;
+  color: white;
+  margin: 20px;
+}
+.banner-description {
+  color: white;
+  font-weight: 700;
+  margin: 20px;
+  padding: 20px 0 20px;
+}
+.button {
+  background-color: red;
+  margin: 20px;
+  padding: 20px 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.resize {
+  width: 500px;
+  height: auto;
+}
+
+/* take a look section */
+.take-look {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+}
+.our-service {
+  display: flex;
+  margin: 40px;
+  padding: 20px;
+}
+.display {
+  width: 350px;
+  height: 250px;
+  display: block;
+  border: 2px solid gray;
+  margin: 50px;
+  padding: 20px;
+  box-shadow: 3px 3px 5px gray;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.8s;
+
+  cursor: pointer;
+}
+.display:hover {
+  margin-top: -30px;
+  border: 1px solid rgb(255, 0, 0);
+}
+.resize1 {
+  width: 60px;
+}
+/* bottom banner section */
+.bottom-section {
+  background-color: black;
+}
+.about-us {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 40px;
+}
+h2 {
+  color: white;
+  font-size: 40px;
+  margin: 20px;
+}
+ul {
+  margin: 30px;
+}
+ul li {
+  color: white;
+  font-size: 20px;
+}
+.bottom-banner {
+  display: flex;
+}
+
+.resize2 {
+  width: 250px;
+  height: auto;
+  transform: skewY(-10deg);
+  margin-top: 50px;
+}
+.button1 {
+  background-color: red;
+  margin-top: 20px;
+  padding: 20px 40px;
+  color: white;
+  text-decoration: none;
+}
+.chat-group {
+  width: 600px;
+  height: 180px;
+  background-image: url(img/shape/Group_33094_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.workout {
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.work-inq {
+  text-decoration: none;
+  text-align: center;
+  background-color: aliceblue;
+  margin: 20px;
+  padding: 5px;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/* our service area */
+
+.take-look {
+  text-align: center;
+}
+.our-service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-service-card {
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fitness-img img {
+  position: relative;
+  width: 300px;
+}
+
+.fitness {
+  color: red;
+  margin: 10px;
+}
+
+.cardio-training {
+  margin: 10px;
+}
+.our-service-card2 {
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 5px;
+  margin: 20px;
+}
+.fitness-img2 img {
+  position: relative;
+  width: 300px;
+}
+.fitness2 {
+  color: red;
+  margin: 10px;
+}
+.cardio-training2 {
+  margin: 10px;
+}
+
+.batch {
+  position: relative;
+}
+.batch-img {
+  position: absolute;
+  width: 50px;
+  top: -275px;
+  left: 260px;
+}
+.card-footer2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.horigental-line {
+  margin: 0 100px;
+}
+/* footer */
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media h3 {
+  padding: 10px;
+}
+.copyright {
+  text-align: center;
+}
